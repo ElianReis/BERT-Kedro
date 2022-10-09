@@ -40,3 +40,6 @@ and try to run the kedro pipeline with CUDA + sentece-transformers.
 > https://www.sbert.net/
 > 
 > https://kedro.readthedocs.io/en/stable/
+
+## Visualization using kedro viz
+![Alt text](kedro-pipeline.png?raw=true "Kedro Viz")
