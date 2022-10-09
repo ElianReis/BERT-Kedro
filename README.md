@@ -1,4 +1,6 @@
-# transformers-match
+# sbert-kedro
+#### Project to integrate Kedro Orchestration and Bert Sentence-transformers operators
+> The idea is basically orchestrate match between **queries** and **corpus** datasets
 
 ## How to install dependencies
 
