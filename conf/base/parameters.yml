@@ -1,0 +1,6 @@
+model_default:
+  url: "sentence-transformers/paraphrase-multilingual-mpnet-base-v2"
+  warmup_steps: 1
+  epochs: 100
+  dataset_from_column: "queries"
+  dataset_to_column: "corpus"

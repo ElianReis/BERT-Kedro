@@ -1,0 +1,22 @@
+# Here you can define all your data sets by using simple YAML syntax.
+#
+# Documentation for this file format can be found in "The Data Catalog"
+# Link: https://kedro.readthedocs.io/en/stable/data/data_catalog.html
+corpus:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/corpus.csv
+  load_args:
+    dtype: "str"
+
+queries:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/queries.csv
+  load_args:
+    dtype: "str"
+
+matched_dataset:
+  type: pandas.CSVDataSet
+  filepath: data/02_model_output/matched.csv
+  save_args:
+    index: False
+    mode: w
